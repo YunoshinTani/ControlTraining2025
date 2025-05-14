@@ -89,7 +89,7 @@ int main() {
     
     printf("HelloWorld\n");
 
-    ThisThread::sleep_for(5000ms);
+    ThisThread::sleep_for(500ms);
   }
 }
 ```
