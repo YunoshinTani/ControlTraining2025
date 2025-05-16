@@ -29,6 +29,8 @@ int main() {
 startHelloWorldHelloWorldHelloWorld...
 ```
 改行されず、横に出力されていく。  
+> [!NOTE]
+> マイコンでの動作だと、改行コードがないと出力されないことがあるようです。基本的には改行コードは改行するための文字ですが、マイコンでのプログラミングの際は入れておきましょう。
 
 ## ThisThread::sleep_for() 課題
 ### 問①
