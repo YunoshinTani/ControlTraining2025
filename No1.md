@@ -50,6 +50,9 @@ int main() {
 ```bash
 My name is YunoshinTani.
 私の名前は谷優之心です。
+My name is YunoshinTani.
+私の名前は谷優之心です。
+...
 ```
 
 あくまで一例  
@@ -68,6 +71,8 @@ startHelloWorldHelloWorldHelloWorld...
 
 ### 2. 問1
 
+コード  
+
 ```cpp
 #include <mbed.h>
 
@@ -76,15 +81,26 @@ int main() {
   while (true) {
     printf("My name is YunoshinTani\n");
     ThisThread::sleep_for(100ms);
+    // 100ミリ秒ごとにprintf()を実行する
   }
 }
 ```
 
-100ミリ秒ごとにprintf()を実行する。  
+出力  
+
+```bash
+start
+My name is YunoshinTani
+<100ms後>
+My name is YunoshinTani
+...
+```
 
 ## 3. まとめ課題
 
 ### 3. 問1
+
+コード  
 
 ```cpp
 #include <mbed.h>
@@ -101,7 +117,19 @@ int main() {
 }
 ```
 
+出力  
+
+```bash
+HelloWorld
+<1秒後>
+HelloWorld
+<1秒後>
+HelloWorld
+```
+
 ### 3. 問2
+
+コード  
 
 ```cpp
 #include <mbed.h>
@@ -117,7 +145,17 @@ int main() {
 }
 ```
 
+出力  
+
+```bash
+HelloWorld HelloWorld HelloWorld
+HelloWorld HelloWorld HelloWorld
+...
+```
+
 ### 3. 問3
+
+コード  
 
 ```cpp
 #include <mbed.h>
@@ -133,4 +171,14 @@ int main() {
     ThisThread::sleep_for(500ms);
   }
 }
+```
+
+出力  
+
+```bash
+HelloWorld HelloWorld HelloWorld
+<500ms後>
+HelloWorld HelloWorld HelloWorld
+<500ms後>
+...
 ```
