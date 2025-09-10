@@ -1,4 +1,10 @@
-# 制御講習 第1回 コード例
+# 制御講習 第3回 コード例
+
+```cpp
+#include <mbed.h>
+```
+
+は省略しています.
 
 ## 1. 課題1 (条件式の計算)
 
@@ -48,8 +54,6 @@ z: 1
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     int x = 5; // 例の値5
 
@@ -74,8 +78,6 @@ Five
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     int n = 5; // 例の値5
 
@@ -100,8 +102,6 @@ IN
 コード(while文)  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     int i = 2;
 
@@ -117,8 +117,6 @@ int main() {
 コード(for文)  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     for (int i = 2; i <= 10; i++) {
         printf("%d ", i);
@@ -139,8 +137,6 @@ int main() {
 コード(while文)  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     int i = 5;
 
@@ -156,8 +152,6 @@ int main() {
 コード(for文)  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     for (int i = 5; i <= 30; i += 5) {
         printf("%d ", i);
@@ -180,8 +174,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     for (int i = 0; i <= 10; i++) {
         if (i != 0) {
@@ -211,8 +203,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
     for (int i = 1; i <= 30; i++) {
         printf("%d : ", i);
@@ -269,8 +259,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 #define ON 0
 #define OFF 1
 

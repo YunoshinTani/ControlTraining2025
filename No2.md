@@ -1,4 +1,10 @@
-# 制御講習第2回のお手本コードです
+# 制御講習 第2回 コード例
+
+```cpp
+#include <mbed.h>
+```
+
+は省略しています.
 
 ## 1. 課題1 (整数の四則演算)
 
@@ -7,8 +13,6 @@
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   int x;
 
@@ -29,8 +33,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   int x, y;
 
@@ -52,8 +54,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   int x;
 
@@ -72,8 +72,6 @@ int main() {
 ### 1. 問4
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   int x;
 
@@ -96,8 +94,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   double x;
 
@@ -120,8 +116,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   double x;
 
@@ -142,8 +136,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   double x;
 
@@ -164,8 +156,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   double x;
 
@@ -188,8 +178,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   double x = 5.0;    // このように初期値を設定することもできる
   double s;
@@ -211,8 +199,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   int n = 7;
   int c;
@@ -234,8 +220,6 @@ int main() {
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   int n = 987;
   int d;

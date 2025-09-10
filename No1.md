@@ -1,4 +1,10 @@
-# 制御講習第1回 コード例
+# 制御講習 第1回 コード例
+
+```cpp
+#include <mbed.h>
+```
+
+は省略しています.
 
 ## 1. printf() 課題
 
@@ -7,8 +13,6 @@
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   printf("start\n");
   while (true) {
@@ -34,8 +38,6 @@ HelloWorld
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   printf("start\n");
   while (true) {
@@ -74,8 +76,6 @@ startHelloWorldHelloWorldHelloWorld...
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   printf("start\n");
   while (true) {
@@ -103,8 +103,6 @@ My name is YunoshinTani
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   printf("HelloWorld\n");
   ThisThread::sleep_for(1s);
@@ -132,8 +130,6 @@ HelloWorld
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   while (true) {
     printf("HelloWorld ");
@@ -158,8 +154,6 @@ HelloWorld HelloWorld HelloWorld
 コード  
 
 ```cpp
-#include <mbed.h>
-
 int main() {
   while (true) {
     printf("HelloWorld ");
